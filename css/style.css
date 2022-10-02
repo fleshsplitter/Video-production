@@ -34,9 +34,20 @@ ul li {
   list-style: none;
 }
 
+.main-page-wrapper {
+  background: url(../img/bg/hero.png) center top no-repeat, url(../img/bg/bottom-pic.png) center bottom 306px no-repeat;
+}
+
 .container {
   width: 1140px;
   margin: 0 auto;
+}
+
+.contacts-footer {
+  position: absolute;
+  right: 0;
+  top: 45px;
+
 }
 
 .header {
@@ -47,6 +58,9 @@ ul li {
 .logo {
   display: block;
   position: absolute;
+}
+
+.logo_header {
   top: 26px;
   margin-right: 241px;
 }
@@ -109,6 +123,10 @@ ul li {
   text-decoration: underline;
   color: #FF3D00;
   font-size: 13px;
+}
+
+.contacts__ring {
+  font-size: 11px;
 }
 
 .hello {
@@ -218,6 +236,10 @@ ul li {
   color: #fff;
 }
 
+.news {
+  margin-bottom: 140px;
+}
+
 .news__header {
   font-size: 36px;
   margin-bottom: 48px;
@@ -305,5 +327,127 @@ ul li {
 
 .pagination__link:hover {
   background: #FF5500;
+}
 
+.about {
+}
+
+.about__main {
+  margin-bottom: 56px;
+}
+
+.about__main::before {
+  content: "";
+  width: 490px;
+  height: 505px;
+  background: url("../img/content/cameraman.png") center center / cover no-repeat;
+  
+}
+
+.about__main::before, .about__desc {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about__desc {
+  background: #FFFFFF;
+  color: #000;
+  padding: 70px 80px;
+  width: 785px;
+  margin-left: -140px;
+  margin-top: 96px;
+  border-radius: 5px;
+}
+
+.about__header {
+  font-weight: 800;
+  font-size: 36px;
+  margin-bottom: 37px;
+}
+
+.about__text {
+  width: 502px;
+  margin-bottom: 36px;
+}
+
+.about__text p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0;
+}
+
+.about__btn {
+  color: #fff;
+  padding: 18px 40px
+}
+
+.footer {
+  position: relative;
+  height: 146px;
+}
+
+.footer__container {
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.logo_footer {
+  position: absolute;
+  top: 42px;
+}
+
+.nav-footer {
+  position: absolute;
+  left: 328px;
+  top: 56px;
+}
+
+.social {
+  position: absolute;
+  top: 49px;
+  left: 703px;
+}
+
+.social__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__icon {
+  width: 36px;
+  height: 36px;
+  display: block;
+  background: center center no-repeat;
+}
+
+.social__item_icon_telegram .social__icon {
+  background-image: url(../img/icons/telegram.png);
+}
+.social__item_icon_telegram .social__icon:hover {
+  background-image: url(../img/icons/t-hover.png);
+}
+.social__item_icon_vk .social__icon {
+  background-image: url(../img/icons/vk.png);
+}
+.social__item_icon_vk .social__icon:hover {
+  background-image: url(../img/icons/vk-hover.png);
+}
+.social__item_icon_fb .social__icon {
+  background-image: url(../img/icons/f.png);
+}
+.social__item_icon_fb .social__icon:hover {
+  background-image: url(../img/icons/f-hover.png);
+}
+.social__item_icon_insta .social__icon {
+  background-image: url(../img/icons/in.png);
+}
+.social__item_icon_insta .social__icon:hover {
+  background-image: url(../img/icons/in-hover.png);
 }
