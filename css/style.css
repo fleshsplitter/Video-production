@@ -60,12 +60,12 @@ ul li {
   position: absolute;
 }
 
-.logo_header {
+.logo--header {
   top: 26px;
   margin-right: 241px;
 }
 
-.nav-header {
+.nav--header {
   left: 438px;
   top: 44px;
   position: absolute;
@@ -77,8 +77,8 @@ ul li {
   margin-right: 51px;
 }
 
-/* .nav__item_active .nav__link {
-  color: #f70;
+/* .nav__item--active .nav__link {
+  color: #FF3D00;
 } в случае необходимости стилизации активной ссылки */
 
 .nav__item:last-child {
@@ -104,7 +104,7 @@ ul li {
 
 }
 
-.contacts-header {
+.contacts--header {
   position: absolute;
   top: 32px;
   right: -1px;
@@ -131,14 +131,14 @@ ul li {
 
 .hello {
   text-align: center;
+  margin-bottom: 233px;
 }
 
 .hello__header {
   font-size: 72px;
   text-align: center;
   width: 776px;
-  margin: 0 auto 18px;
-  height: 197px;
+  margin: 0 auto 14px;
   line-height: 1.39;
 }
 
@@ -165,7 +165,6 @@ ul li {
 }
 
 .hello__btn {
-  margin-bottom: 233px;
 }
 
 .services {
@@ -393,12 +392,12 @@ ul li {
   border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
-.logo_footer {
+.logo--footer {
   position: absolute;
   top: 42px;
 }
 
-.nav-footer {
+.nav--footer {
   position: absolute;
   left: 328px;
   top: 56px;
@@ -427,27 +426,27 @@ ul li {
   background: center center no-repeat;
 }
 
-.social__item_icon_telegram .social__icon {
+.social__item--icon-telegram .social__icon {
   background-image: url(../img/icons/telegram.png);
 }
-.social__item_icon_telegram .social__icon:hover {
+.social__item--icon-telegram .social__icon:hover {
   background-image: url(../img/icons/t-hover.png);
 }
-.social__item_icon_vk .social__icon {
+.social__item--icon-vk .social__icon {
   background-image: url(../img/icons/vk.png);
 }
-.social__item_icon_vk .social__icon:hover {
+.social__item--icon-vk .social__icon:hover {
   background-image: url(../img/icons/vk-hover.png);
 }
-.social__item_icon_fb .social__icon {
+.social__item--icon-fb .social__icon {
   background-image: url(../img/icons/f.png);
 }
-.social__item_icon_fb .social__icon:hover {
+.social__item--icon-fb .social__icon:hover {
   background-image: url(../img/icons/f-hover.png);
 }
-.social__item_icon_insta .social__icon {
+.social__item--icon-insta .social__icon {
   background-image: url(../img/icons/in.png);
 }
-.social__item_icon_insta .social__icon:hover {
+.social__item--icon-insta .social__icon:hover {
   background-image: url(../img/icons/in-hover.png);
 }
