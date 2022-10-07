@@ -1,0 +1,27 @@
+.contacts {
+  font-style: normal;
+  text-align: right;
+
+}
+
+.contacts--header {
+  margin-top: 7px;
+}
+
+.contacts__phone {
+  font-size: 26px;
+  display: inline-block;
+}
+
+.contacts__schedule {
+  text-decoration: underline;
+  color: #FF3D00;
+  font-size: 13px;
+  margin-top: -8px;
+}
+
+.contacts__ring {
+  font-size: 11px;
+}
+
+.contacts-footer {}

@@ -1,0 +1,20 @@
+.hello {
+  text-align: center;
+  margin-bottom: 233px;
+}
+
+.hello__header {
+  font-size: 72px;
+  text-align: center;
+  width: 776px;
+  margin: 0 auto 14px;
+  line-height: 1.39;
+}
+
+.hello__content {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.hello__btn {}

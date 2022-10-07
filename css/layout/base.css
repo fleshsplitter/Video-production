@@ -1,0 +1,60 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', Arial, helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #17191C;
+  color: #fff;
+  line-height: 1.42;
+  height: 100%;
+}
+
+
+h1,
+h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-width: 1140px;
+  min-height: 100%;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container__content {
+  flex: 1 1 auto;
+}
+
+.main-page-wrapper {
+  background: url(../../img/bg/hero.png) center top no-repeat, url(../../img/bg/bottom-pic.png) center bottom 306px no-repeat;
+}

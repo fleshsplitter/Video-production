@@ -1,0 +1,15 @@
+.btn {
+  display: inline-block;
+  /* width: 86px; */
+  text-align: center;
+  background: #FF5500;
+  font-size: 14px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 18px 54px;
+}
+
+.btn:hover {
+  background: #FF3D00;
+}

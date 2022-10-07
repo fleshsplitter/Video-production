@@ -1,0 +1,42 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination__page {
+  line-height: 32px;
+  margin-right: 40px;
+}
+
+.pagination__list {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 214px;
+}
+
+.pagination__item {
+  font-weight: 700;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  line-height: 32px;
+}
+
+.pagination__item:last-child {}
+
+/* .pagination__item_active {
+  background: #FF5500;
+  border-radius: 50%;
+} */
+
+
+.pagination__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+}
+
+.pagination__item:hover {
+  background: #FF5500;
+}

@@ -1,0 +1,49 @@
+.news {
+  margin-bottom: 140px;
+}
+
+.news__header {
+  font-size: 36px;
+  margin-bottom: 48px;
+}
+
+.news__list {
+  margin-bottom: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__link {
+  padding: 0 83px 23px 30px;
+  width: 557px;
+  height: 394px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.news__link--camera {
+  background: url(../../img/content/camera.png);
+
+}
+
+.news__link--wedding {
+  background: url(../../img/content/wedding.png);
+}
+
+.news__bg {
+  width: 557px;
+  height: 394px;
+  object-fit: cover;
+}
+
+.news__time {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.news__desc {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,36 @@
+.nav--header {
+  margin-top: 19px;
+}
+
+.nav__list {
+  display: flex;
+
+}
+
+.nav__item {
+  margin-right: 51px;
+}
+
+/* .nav__item--active .nav__link {
+  color: #FF3D00;
+} в случае необходимости стилизации активной ссылки */
+
+.nav__item:last-child {
+  margin-right: 0px;
+}
+
+.nav__link {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* .nav__link:visited {
+  color: #FF6D00;
+} */
+
+.nav__link:hover {
+  color: #FF3D00;
+}
+.nav--footer {
+  padding-top: 17px;
+}
