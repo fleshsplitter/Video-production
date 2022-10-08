@@ -22,7 +22,7 @@
   margin-left: 12px;
 }
 
-.services__header {
+.services__header h3 {
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 14px;
@@ -47,7 +47,7 @@
   /* margin-right: 55px; */
 }
 
-.services__text {
+.services__text p {
   min-height: 66px;
   font-size: 14px;
   margin-bottom: 21px;

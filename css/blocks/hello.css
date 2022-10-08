@@ -3,7 +3,7 @@
   margin-bottom: 233px;
 }
 
-.hello__header {
+.hello__header h1 {
   font-size: 72px;
   text-align: center;
   width: 776px;
@@ -11,7 +11,7 @@
   line-height: 1.39;
 }
 
-.hello__content {
+.hello__content p {
   font-size: 18px;
   text-align: center;
   margin-bottom: 38px;
