@@ -72,3 +72,29 @@ table {
 .services-page-wrapper {
   background: url(../../img/bg/top-line.jpg) center top no-repeat;
 }
+
+.breadcrumbs {
+  display: flex;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #9A9A9A;
+
+}
+
+.breadcrumbs--active{
+  font-weight: bold;
+}
+
+.breadcrumbs li {
+  margin-right: 5px;
+}
+
+.breadcrumbs li::after {
+  display: inline-block;
+  content: "/";
+  /* margin-left: 5px; */
+}
+
+.breadcrumbs li:last-child::after {
+  content: none;
+}

@@ -6,3 +6,7 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+
+.header--services {
+  height: 188px;
+}
