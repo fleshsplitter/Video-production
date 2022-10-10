@@ -1,10 +1,13 @@
 .services-hello {
   margin-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  min-height: 202px;
+  justify-content: space-between;
 }
 
-.services-hello__header h1{
+.services-hello__header{
   margin-top: 0;
-  margin-bottom: 81px;
-font-size: 72px;
-font-weight: 800;
+  font-size: 72px;
+  font-weight: 800;
 }

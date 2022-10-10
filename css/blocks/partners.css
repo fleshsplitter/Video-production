@@ -2,18 +2,14 @@
 .partners {
   background: #F4F5F5;
   color: #000;
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
+  padding-top: 88px;
+  padding-bottom: 102px;
 }
 
 .partners__main {
-  width: 1140px;
-  margin: 0 auto;
-  padding-top: 88px;
-  padding-bottom: 50px;
 }
 
-.partners__main h2 {
+.partners__header {
   font-weight: 700;
   font-size: 48px;
   text-transform: none;
@@ -24,9 +20,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 252px;
+  row-gap: 56px;
 }
 
 .partners__item {
   margin-right: 100px;
+  flex-grow: 1;
+  min-width: 182px;
+}
+
+.partners__item:nth-child(4n+4) {
+  margin-right: 0;
+  text-align: center;
 }

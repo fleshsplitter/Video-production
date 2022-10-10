@@ -1,12 +1,18 @@
 .footer-container {
-  border-top: 1px solid rgba(255, 255, 255, .1);
-}
-
-.footer {
-  margin-bottom: 60px;
+  /* border-top: 1px solid rgba(255, 255, 255, .1); */
   display: flex;
   justify-content: space-between;
   padding-top: 41px;
+  flex-direction: row;
+}
+
+.footer {
+  margin-top: auto;
+  padding-bottom: 51px;
+}
+
+.footer-line {
+  border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
 .footer__block {
