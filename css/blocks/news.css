@@ -1,14 +1,14 @@
 .news {
-  margin-bottom: 140px;
+  margin-bottom: 146px;
 }
 
-.news__header h2 {
+.news__header {
   font-size: 36px;
   margin-bottom: 48px;
 }
 
 .news__list {
-  margin-bottom: 58px;
+  margin-bottom: 52px;
   display: flex;
   justify-content: space-between;
 }
@@ -41,13 +41,13 @@
   /* background-size: cover; */
 }
 
-.single-news__content time {
+.single-news__time {
   display: block;
   font-size: 14px;
   margin-bottom: 12px;
 }
 
-.single-news__content h3 {
+.single-news__header {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 5px;

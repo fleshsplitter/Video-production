@@ -4,11 +4,12 @@
 
 .nav__list {
   display: flex;
-
+  justify-content: space-between;
+  min-width: 264px;
 }
 
 .nav__item {
-  margin-right: 51px;
+  margin-right: 10px;
 }
 
 /* .nav__item--active .nav__link {
@@ -21,7 +22,6 @@
 
 .nav__link {
   font-size: 14px;
-  margin-bottom: 20px;
 }
 
 /* .nav__link:visited {

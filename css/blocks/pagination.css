@@ -5,13 +5,13 @@
 
 .pagination__page {
   line-height: 32px;
-  margin-right: 40px;
+  margin-right: 23px;
+  padding-left: 11px;
 }
 
 .pagination__list {
   display: flex;
   /* justify-content: space-between; */
-  width: 214px;
 }
 
 .pagination__item {
@@ -20,14 +20,13 @@
   height: 32px;
   border-radius: 50%;
   line-height: 32px;
+  margin-right: 2px;
 }
 
-.pagination__item:last-child {}
+.pagination__item:last-child {
+  margin-right: 0;
+}
 
-/* .pagination__item_active {
-  background: #FF5500;
-  border-radius: 50%;
-} */
 
 
 .pagination__link {

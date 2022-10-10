@@ -1,10 +1,14 @@
-.footer__container {
+.footer-container {
   border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
 .footer {
-  height: 146px;
+  margin-bottom: 60px;
   display: flex;
   justify-content: space-between;
   padding-top: 41px;
+}
+
+.footer__block {
+  display: flex;
 }

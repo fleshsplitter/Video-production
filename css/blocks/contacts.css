@@ -24,4 +24,6 @@
   font-size: 11px;
 }
 
-.contacts-footer {}
+.contacts-footer {
+  margin-top: 3px;
+}

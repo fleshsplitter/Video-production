@@ -32,7 +32,7 @@
   flex-direction: column;
 }
 
-.services__header h3 {
+.services__header {
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 14px;
@@ -50,7 +50,7 @@
 
 }
 
-.services__text p {
+.services__text{
   min-height: 66px;
   font-size: 14px;
   margin-bottom: 25px;

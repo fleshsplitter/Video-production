@@ -1,9 +1,9 @@
 .logo {
-  display: block;
+  /* display: block; */
 }
 
 .logo--header {}
 
 .logo--footer {
-  margin-right: 35px;
+  margin-right: 130px;
 }

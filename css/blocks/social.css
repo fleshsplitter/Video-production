@@ -1,4 +1,7 @@
-.social {}
+.social {
+  margin-right: 71px;
+  margin-top: 8px;
+}
 
 .social__item {
   display: inline-block;
