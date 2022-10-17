@@ -21,6 +21,7 @@
   border-radius: 50%;
   line-height: 32px;
   margin-right: 2px;
+  transition: .5s;
 }
 
 .pagination__item:last-child {

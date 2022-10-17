@@ -1,0 +1,37 @@
+.rec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 38px;
+  animation: hello-anim 1.2s ease;
+  font-family: ;
+}
+
+@keyframes hello-anim {
+  0% {
+    transform: scale(1%) rotate(30deg);
+    opacity: 0;
+    
+  }
+
+  60% {
+    transform: rotate(-5deg) scale(100%);
+  }
+
+  70% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.rec__title {
+  background: url(../../img/logo-big.png)  no-repeat ;
+  width: 538px;
+  height: 147px;
+  margin-bottom: 38px;
+}
+

@@ -22,6 +22,7 @@
 
 .nav__link {
   font-size: 14px;
+  transition: .5s;
 }
 
 /* .nav__link:visited {

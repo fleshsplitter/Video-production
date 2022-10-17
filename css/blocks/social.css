@@ -18,6 +18,7 @@
   height: 36px;
   display: block;
   background: center center no-repeat;
+  transition: .5s;
 }
 
 .social__item--icon-telegram .social__icon {
