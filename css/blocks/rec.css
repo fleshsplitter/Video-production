@@ -4,7 +4,6 @@
   align-items: center;
   margin-top: 38px;
   animation: hello-anim 1.2s ease;
-  font-family: ;
 }
 
 @keyframes hello-anim {

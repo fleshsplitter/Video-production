@@ -1,7 +1,7 @@
 .contacts {
+  position: relative;
   font-style: normal;
   text-align: right;
-
 }
 
 .contacts--header {
@@ -10,15 +10,72 @@
 
 .contacts__phone {
   font-size: 26px;
-  display: inline-block;
+  display: block;
+  /* display: inline-block; */
+  margin-bottom: -12px;
 }
 
 .contacts__schedule {
+  display: inline-block;
   text-decoration: underline;
   color: #FF3D00;
   font-size: 13px;
-  margin-top: -8px;
 }
+
+.contacts__schedule:hover .contacts__dropdown {
+  display: block;
+}
+
+
+.contacts__dropdown::before {
+  content: "";
+  width: 96px;
+  height: 30px;
+  position: absolute;
+  bottom: 53px;
+  right: 0;
+}
+
+
+.contacts__dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  color: #000;
+  font-size: 13px;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 22px;
+  padding: 10px 18px 14px;
+  margin-top: 8px;
+  max-width: 160px;
+  border-radius: 5px;
+  display: none;
+}
+
+.contacts__dropdown-item {
+  font-weight: 600;
+}
+
+.contacts__dropdown-item:first-child {
+  font-weight: 700;
+}
+
+.contacts__dropdown::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  /* height: 50px;
+  width: 50px; */
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+  top: -20px;
+  right: 40px;
+}
+
+/*           Контакты в футере            */
 
 .contacts__ring {
   font-size: 11px;
