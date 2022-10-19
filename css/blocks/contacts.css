@@ -23,7 +23,9 @@
 }
 
 .contacts__schedule:hover .contacts__dropdown {
-  display: block;
+  /* display: block; */
+  opacity: 1;
+  left: 33px;
 }
 
 
@@ -40,7 +42,7 @@
 .contacts__dropdown {
   position: absolute;
   top: 100%;
-  right: 0;
+  left: -9999px;
   background: #fff;
   color: #000;
   font-size: 13px;
@@ -52,7 +54,9 @@
   margin-top: 8px;
   max-width: 160px;
   border-radius: 5px;
-  display: none;
+  /* display: none; */
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
 .contacts__dropdown-item {
