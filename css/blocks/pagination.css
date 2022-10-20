@@ -21,7 +21,7 @@
   border-radius: 50%;
   line-height: 32px;
   margin-right: 2px;
-  transition: .5s;
+  transition: 0.3s;
 }
 
 .pagination__item:last-child {
@@ -39,4 +39,12 @@
 
 .pagination__item:hover {
   background: #FF5500;
+}
+
+.pagination--light {
+  color: #000;
+}
+
+.pagination--light .pagination__item:hover {
+  color:#fff;
 }
