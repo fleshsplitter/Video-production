@@ -64,13 +64,16 @@
 }
 
 .reviews__item-profession {
+  margin-left: 21px;
+  margin-top: 6px;
+  display: inline-block;
+}
+
+.tag {
   font-size: 13px;
   background: #F2D4C9;
-  max-width: fit-content;
   padding: 10px 25px;
   border-radius: 35px;
-  margin-left: 21px;
-    margin-top: 6px;
 }
 
 .reviews__item-text p {
@@ -103,10 +106,125 @@
   font-size: 48px;
   max-width: 553px;
   font-weight: 700;
-  padding: 117px 0;
+  padding: 113px 0;
   text-transform: none;
 }
 
 .discount {
   color: #FF5400;
+}
+
+.review {
+  height: 799px;
+  background: #F4F5F5;
+  color: #000;
+  padding: 79px 0 96px;
+}
+
+.review__header {
+  font-size: 36px;
+  margin-bottom: 56px;
+}
+
+.form__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.form__row--textarea {
+  margin-bottom: 23px;
+}
+
+.form__row--controls {
+  margin-bottom: 32px;
+  align-items: flex-start;
+}
+
+.form__row--buttons {  
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.form__input {
+  background: #fff;
+  padding: 19px 30px 21px;
+  font-size: 18px;
+  line-height: 1.16;
+  border: 1px solid transparent;
+  flex: 1;
+  margin-right: 28px;
+  border-radius: 5px;
+  color: #1A1B1E;
+}
+
+.form__input:last-child {
+  margin-right: 0;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: #CCCCCC;
+}
+
+.form__input::placeholder {
+  color: #666666;
+}
+
+.form__input--textarea {
+  height: 235px;
+  resize: none;
+  padding-top: 31px;
+}
+
+.form__options-title {
+  width: 35%;
+  margin-right: 30px;
+  padding-top: 11px;
+  font-size: 18px;
+}
+
+.form__options-list {
+  flex: 1;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+.controls__elem {
+  position: relative;
+}
+
+.controls__checkbox {
+  /* display: none; */
+  appearance: none;
+  -ms-progress-appearance: none;
+  position: absolute;
+}
+
+.controls__checkbox:checked + .controls__tag {
+  background: #F2D4C9;
+}
+
+.controls__checkbox:focus + .controls__tag {
+  border-color: #818181;
+}
+
+.controls__tag {
+  padding: 9px 15px;
+  background: #E7E7E7;
+  display: inline-block;
+  border: 1px solid transparent;
+}
+
+
+
+.form__btn {
+  background: #8E8E8E;
+  color: #fff;
+  padding: 18px 39px;
+  border: none;
 }
