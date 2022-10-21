@@ -27,9 +27,14 @@
   margin-right: 100px;
   flex-grow: 1;
   min-width: 182px;
+  filter: grayscale(1);
 }
 
 .partners__item:nth-child(4n+4) {
   margin-right: 0;
   text-align: center;
+}
+
+.partners__item:hover {
+  filter: grayscale(0);
 }
